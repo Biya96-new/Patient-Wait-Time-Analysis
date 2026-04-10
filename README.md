@@ -102,7 +102,6 @@ https://app.powerbi.com/view?r=eyJrIjoiZTg1YmEzYzYtOGU2YS00Y2EzLTk5YWQtZDk3OWE4N
 
 ---
 
-💡 **Explore the dashboard to understand how patient flow efficiency varies across hospitals, departments, and time periods.**
 ## 🤝 Connect With Me
 
 💼 LinkedIn: https://www.linkedin.com/in/biya-rocky-dataanalyst/  
