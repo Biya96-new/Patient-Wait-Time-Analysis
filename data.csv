@@ -1,0 +1,801 @@
+patient_id,visit_date,hospital_name,department,triage_level,wait_time_minutes
+PAT00001,2026-07-28,Hospital_A,Cardiology,Low,10
+PAT00002,2026-07-28,Hospital_C,Cardiology,Low,44
+PAT00003,2026-07-16,Hospital_A,Orthopedics,Low,12
+PAT00004,2026-07-22,Hospital_C,Orthopedics,Low,42
+PAT00005,2026-07-25,Hospital_B,Orthopedics,Low,5
+PAT00006,2026-07-16,Hospital_A,Cardiology,Medium,29
+PAT00007,2026-07-28,Hospital_C,Cardiology,High,4
+PAT00008,2026-07-05,Hospital_B,Pediatrics,Medium,7
+PAT00009,2026-07-26,Hospital_A,Cardiology,Low,8
+PAT00010,2026-07-03,Hospital_A,Cardiology,Low,27
+PAT00011,2026-07-26,Hospital_A,Emergency,Medium,61
+PAT00012,2026-07-14,Hospital_A,Cardiology,High,1
+PAT00013,2026-07-22,Hospital_A,Emergency,Medium,33
+PAT00014,2026-07-04,Hospital_C,General Medicine,High,35
+PAT00015,2026-07-10,Hospital_C,Orthopedics,Medium,32
+PAT00016,2026-07-02,Hospital_A,General Medicine,Low,5
+PAT00017,2026-07-16,Hospital_A,Orthopedics,Medium,23
+PAT00018,2026-07-20,Hospital_A,Emergency,Low,42
+PAT00019,2026-07-15,Hospital_A,Pediatrics,High,24
+PAT00020,2026-07-15,Hospital_A,Orthopedics,Low,22
+PAT00021,2026-07-05,Hospital_B,Pediatrics,Low,30
+PAT00022,2026-07-26,Hospital_C,Pediatrics,Medium,41
+PAT00023,2026-07-08,Hospital_B,General Medicine,Low,29
+PAT00024,2026-07-07,Hospital_B,General Medicine,Medium,7
+PAT00025,2026-07-29,Hospital_B,Cardiology,Low,14
+PAT00026,2026-07-05,Hospital_A,Pediatrics,Low,8
+PAT00027,2026-07-07,Hospital_B,Emergency,Medium,43
+PAT00028,2026-07-07,Hospital_C,Pediatrics,Low,28
+PAT00029,2026-07-29,Hospital_C,General Medicine,Medium,49
+PAT00030,2026-07-17,Hospital_C,Orthopedics,Low,36
+PAT00031,2026-07-20,Hospital_B,Orthopedics,Medium,25
+PAT00032,2026-07-05,Hospital_B,Pediatrics,Low,36
+PAT00033,2026-07-31,Hospital_B,Cardiology,Low,6
+PAT00034,2026-07-10,Hospital_B,Pediatrics,Low,32
+PAT00035,2026-07-09,Hospital_B,General Medicine,Low,36
+PAT00036,2026-07-18,Hospital_A,Orthopedics,Low,19
+PAT00037,2026-07-13,Hospital_B,Emergency,Low,34
+PAT00038,2026-07-21,Hospital_B,Pediatrics,Low,15
+PAT00039,2026-07-22,Hospital_C,General Medicine,Low,34
+PAT00040,2026-07-12,Hospital_A,Pediatrics,Medium,5
+PAT00041,2026-07-04,Hospital_B,Orthopedics,Low,14
+PAT00042,2026-07-23,Hospital_A,Pediatrics,Medium,6
+PAT00043,2026-07-30,Hospital_A,Emergency,Medium,59
+PAT00044,2026-07-27,Hospital_C,Orthopedics,Low,23
+PAT00045,2026-07-15,Hospital_C,Pediatrics,Low,31
+PAT00046,2026-07-12,Hospital_C,Emergency,Medium,39
+PAT00047,2026-07-31,Hospital_B,Cardiology,Low,36
+PAT00048,2026-07-09,Hospital_A,Emergency,Medium,62
+PAT00049,2026-07-18,Hospital_A,Orthopedics,Medium,17
+PAT00050,2026-07-01,Hospital_B,Pediatrics,High,1
+PAT00051,2026-07-21,Hospital_C,Cardiology,Medium,20
+PAT00052,2026-07-09,Hospital_A,Orthopedics,High,1
+PAT00053,2026-07-05,Hospital_A,Cardiology,Medium,28
+PAT00054,2026-07-03,Hospital_A,General Medicine,Low,40
+PAT00055,2026-07-29,Hospital_A,Emergency,Low,32
+PAT00056,2026-07-07,Hospital_A,Pediatrics,Medium,23
+PAT00057,2026-07-16,Hospital_A,Pediatrics,Medium,37
+PAT00058,2026-07-09,Hospital_A,Pediatrics,Medium,28
+PAT00059,2026-07-11,Hospital_B,Orthopedics,High,25
+PAT00060,2026-07-13,Hospital_A,Cardiology,Medium,35
+PAT00061,2026-07-01,Hospital_A,Emergency,Medium,76
+PAT00062,2026-07-05,Hospital_C,Orthopedics,Low,40
+PAT00063,2026-07-15,Hospital_C,Emergency,Low,63
+PAT00064,2026-07-10,Hospital_A,Emergency,Medium,25
+PAT00065,2026-07-05,Hospital_B,General Medicine,High,13
+PAT00066,2026-07-07,Hospital_C,Orthopedics,Low,46
+PAT00067,2026-07-13,Hospital_A,Cardiology,Medium,38
+PAT00068,2026-07-24,Hospital_A,Orthopedics,Low,25
+PAT00069,2026-07-14,Hospital_B,Orthopedics,High,12
+PAT00070,2026-07-10,Hospital_B,General Medicine,High,6
+PAT00071,2026-07-26,Hospital_C,Cardiology,Low,28
+PAT00072,2026-07-07,Hospital_C,Emergency,Low,53
+PAT00073,2026-07-20,Hospital_B,Emergency,Low,33
+PAT00074,2026-07-19,Hospital_C,Pediatrics,Low,49
+PAT00075,2026-07-31,Hospital_A,Pediatrics,High,20
+PAT00076,2026-07-10,Hospital_A,Orthopedics,Low,34
+PAT00077,2026-07-03,Hospital_B,Pediatrics,Low,7
+PAT00078,2026-07-05,Hospital_A,Cardiology,Low,31
+PAT00079,2026-07-02,Hospital_B,Orthopedics,Medium,34
+PAT00080,2026-07-22,Hospital_A,Pediatrics,High,29
+PAT00081,2026-07-08,Hospital_B,Pediatrics,High,26
+PAT00082,2026-07-24,Hospital_A,Emergency,Low,31
+PAT00083,2026-07-07,Hospital_C,Cardiology,Medium,23
+PAT00084,2026-07-16,Hospital_A,Emergency,Low,25
+PAT00085,2026-07-01,Hospital_C,Pediatrics,Medium,52
+PAT00086,2026-07-04,Hospital_C,Orthopedics,Low,45
+PAT00087,2026-07-04,Hospital_A,Pediatrics,Low,29
+PAT00088,2026-07-18,Hospital_C,Pediatrics,Medium,40
+PAT00089,2026-07-05,Hospital_A,Pediatrics,Medium,25
+PAT00090,2026-07-25,Hospital_C,Orthopedics,Medium,56
+PAT00091,2026-07-20,Hospital_B,Pediatrics,Medium,40
+PAT00092,2026-07-13,Hospital_C,Orthopedics,Medium,50
+PAT00093,2026-07-04,Hospital_A,General Medicine,Medium,28
+PAT00094,2026-07-27,Hospital_A,General Medicine,High,15
+PAT00095,2026-07-16,Hospital_C,Cardiology,Medium,14
+PAT00096,2026-07-21,Hospital_A,General Medicine,Low,16
+PAT00097,2026-07-01,Hospital_C,Emergency,Low,66
+PAT00098,2026-07-13,Hospital_A,General Medicine,Medium,13
+PAT00099,2026-07-25,Hospital_A,Emergency,High,25
+PAT00100,2026-07-05,Hospital_B,General Medicine,Medium,29
+PAT00101,2026-07-04,Hospital_C,General Medicine,Low,40
+PAT00102,2026-07-22,Hospital_B,Emergency,Low,54
+PAT00103,2026-07-29,Hospital_C,Orthopedics,Low,30
+PAT00104,2026-07-19,Hospital_B,Emergency,Medium,39
+PAT00105,2026-07-31,Hospital_B,Emergency,Medium,60
+PAT00106,2026-07-21,Hospital_C,Pediatrics,Medium,29
+PAT00107,2026-07-26,Hospital_A,Cardiology,Medium,38
+PAT00108,2026-07-07,Hospital_A,Emergency,Medium,59
+PAT00109,2026-07-27,Hospital_A,Pediatrics,Low,34
+PAT00110,2026-07-22,Hospital_A,Cardiology,High,18
+PAT00111,2026-07-03,Hospital_B,Emergency,Low,64
+PAT00112,2026-07-09,Hospital_B,Pediatrics,Medium,40
+PAT00113,2026-07-14,Hospital_A,Orthopedics,Medium,17
+PAT00114,2026-07-27,Hospital_A,Pediatrics,Medium,5
+PAT00115,2026-07-11,Hospital_C,Pediatrics,Medium,27
+PAT00116,2026-07-14,Hospital_A,Pediatrics,High,7
+PAT00117,2026-07-16,Hospital_A,Emergency,Low,53
+PAT00118,2026-07-13,Hospital_B,General Medicine,Low,36
+PAT00119,2026-07-12,Hospital_B,Emergency,High,61
+PAT00120,2026-07-15,Hospital_B,Emergency,Low,56
+PAT00121,2026-07-31,Hospital_C,Pediatrics,Low,47
+PAT00122,2026-07-17,Hospital_A,General Medicine,High,21
+PAT00123,2026-07-02,Hospital_A,Orthopedics,Low,39
+PAT00124,2026-07-21,Hospital_A,Orthopedics,Low,33
+PAT00125,2026-07-21,Hospital_B,Orthopedics,High,8
+PAT00126,2026-07-26,Hospital_B,General Medicine,Medium,7
+PAT00127,2026-07-28,Hospital_A,Cardiology,Low,24
+PAT00128,2026-07-10,Hospital_B,Orthopedics,High,30
+PAT00129,2026-07-27,Hospital_A,Pediatrics,High,9
+PAT00130,2026-07-05,Hospital_A,Pediatrics,Low,39
+PAT00131,2026-07-30,Hospital_A,Pediatrics,Medium,25
+PAT00132,2026-07-09,Hospital_C,Orthopedics,Low,34
+PAT00133,2026-07-16,Hospital_B,Emergency,Medium,29
+PAT00134,2026-07-29,Hospital_A,Pediatrics,Low,15
+PAT00135,2026-07-13,Hospital_A,Orthopedics,Low,29
+PAT00136,2026-07-21,Hospital_A,General Medicine,Medium,36
+PAT00137,2026-07-01,Hospital_C,Pediatrics,High,38
+PAT00138,2026-07-25,Hospital_C,Emergency,Medium,69
+PAT00139,2026-07-27,Hospital_A,Cardiology,Medium,15
+PAT00140,2026-07-22,Hospital_C,Orthopedics,Low,39
+PAT00141,2026-07-23,Hospital_B,Orthopedics,Low,5
+PAT00142,2026-07-03,Hospital_C,Pediatrics,High,13
+PAT00143,2026-07-30,Hospital_C,Emergency,High,74
+PAT00144,2026-07-15,Hospital_A,General Medicine,Low,18
+PAT00145,2026-07-23,Hospital_C,General Medicine,Medium,34
+PAT00146,2026-07-20,Hospital_C,Orthopedics,Medium,53
+PAT00147,2026-07-24,Hospital_C,Orthopedics,Medium,36
+PAT00148,2026-07-10,Hospital_C,Pediatrics,Low,23
+PAT00149,2026-07-11,Hospital_C,Cardiology,Medium,17
+PAT00150,2026-07-06,Hospital_A,Orthopedics,Medium,27
+PAT00151,2026-07-27,Hospital_B,Pediatrics,Low,28
+PAT00152,2026-07-01,Hospital_B,Cardiology,Low,17
+PAT00153,2026-07-06,Hospital_C,Emergency,Low,72
+PAT00154,2026-07-16,Hospital_C,Pediatrics,Low,31
+PAT00155,2026-07-17,Hospital_A,Cardiology,Low,14
+PAT00156,2026-07-20,Hospital_C,Emergency,Medium,63
+PAT00157,2026-07-11,Hospital_A,Emergency,High,38
+PAT00158,2026-07-24,Hospital_A,Cardiology,Medium,26
+PAT00159,2026-07-01,Hospital_C,Cardiology,Medium,38
+PAT00160,2026-07-02,Hospital_C,Cardiology,Low,37
+PAT00161,2026-07-01,Hospital_A,Emergency,Medium,62
+PAT00162,2026-07-20,Hospital_A,Cardiology,Low,10
+PAT00163,2026-07-04,Hospital_C,General Medicine,Low,36
+PAT00164,2026-07-20,Hospital_C,Cardiology,Medium,51
+PAT00165,2026-07-10,Hospital_C,Emergency,Medium,60
+PAT00166,2026-07-27,Hospital_C,Pediatrics,Low,41
+PAT00167,2026-07-28,Hospital_C,Cardiology,Low,22
+PAT00168,2026-07-22,Hospital_C,Pediatrics,Medium,23
+PAT00169,2026-07-17,Hospital_C,Cardiology,Low,19
+PAT00170,2026-07-05,Hospital_C,Orthopedics,Medium,26
+PAT00171,2026-07-17,Hospital_A,Orthopedics,Low,26
+PAT00172,2026-07-23,Hospital_A,Emergency,Low,31
+PAT00173,2026-07-21,Hospital_C,Cardiology,Medium,35
+PAT00174,2026-07-19,Hospital_A,Pediatrics,Low,39
+PAT00175,2026-07-03,Hospital_B,Emergency,Low,58
+PAT00176,2026-07-31,Hospital_B,General Medicine,Low,16
+PAT00177,2026-07-09,Hospital_B,General Medicine,Low,27
+PAT00178,2026-07-15,Hospital_C,Orthopedics,Low,49
+PAT00179,2026-07-11,Hospital_A,Emergency,High,25
+PAT00180,2026-07-23,Hospital_A,General Medicine,Medium,21
+PAT00181,2026-07-03,Hospital_B,Pediatrics,Medium,34
+PAT00182,2026-07-10,Hospital_B,Pediatrics,Medium,20
+PAT00183,2026-07-07,Hospital_A,Orthopedics,Low,34
+PAT00184,2026-07-11,Hospital_A,General Medicine,High,20
+PAT00185,2026-07-03,Hospital_A,Cardiology,High,1
+PAT00186,2026-07-10,Hospital_A,Emergency,Low,64
+PAT00187,2026-07-20,Hospital_A,Cardiology,Low,39
+PAT00188,2026-07-17,Hospital_B,General Medicine,High,14
+PAT00189,2026-07-05,Hospital_C,Emergency,Medium,43
+PAT00190,2026-07-11,Hospital_A,Emergency,Low,42
+PAT00191,2026-07-22,Hospital_C,Emergency,Medium,44
+PAT00192,2026-07-12,Hospital_A,Pediatrics,High,11
+PAT00193,2026-07-27,Hospital_B,Emergency,Medium,32
+PAT00194,2026-07-13,Hospital_A,Cardiology,High,16
+PAT00195,2026-07-31,Hospital_A,General Medicine,Low,33
+PAT00196,2026-07-28,Hospital_A,Pediatrics,High,12
+PAT00197,2026-07-06,Hospital_A,General Medicine,Low,14
+PAT00198,2026-07-12,Hospital_C,Orthopedics,Low,33
+PAT00199,2026-07-24,Hospital_B,Pediatrics,Low,21
+PAT00200,2026-07-03,Hospital_A,Emergency,Low,48
+PAT00201,2026-07-26,Hospital_A,Emergency,Medium,33
+PAT00202,2026-07-12,Hospital_B,Emergency,Low,51
+PAT00203,2026-07-06,Hospital_C,Cardiology,Medium,23
+PAT00204,2026-07-18,Hospital_A,General Medicine,Low,13
+PAT00205,2026-07-11,Hospital_B,Cardiology,Low,22
+PAT00206,2026-07-25,Hospital_A,General Medicine,Medium,5
+PAT00207,2026-07-21,Hospital_B,Emergency,Low,63
+PAT00208,2026-07-08,Hospital_C,General Medicine,Low,23
+PAT00209,2026-07-09,Hospital_C,Cardiology,Medium,47
+PAT00210,2026-07-21,Hospital_A,Emergency,Low,48
+PAT00211,2026-07-06,Hospital_B,General Medicine,Medium,6
+PAT00212,2026-07-15,Hospital_C,Cardiology,High,6
+PAT00213,2026-07-04,Hospital_B,General Medicine,High,17
+PAT00214,2026-07-22,Hospital_C,Cardiology,High,26
+PAT00215,2026-07-27,Hospital_A,Pediatrics,Medium,15
+PAT00216,2026-07-21,Hospital_A,Orthopedics,Low,32
+PAT00217,2026-07-15,Hospital_A,General Medicine,Low,15
+PAT00218,2026-07-08,Hospital_B,Orthopedics,Medium,24
+PAT00219,2026-07-16,Hospital_C,Cardiology,Low,41
+PAT00220,2026-07-20,Hospital_B,Cardiology,Medium,8
+PAT00221,2026-07-05,Hospital_C,Cardiology,Low,45
+PAT00222,2026-07-27,Hospital_A,General Medicine,Low,6
+PAT00223,2026-07-16,Hospital_C,Emergency,Medium,53
+PAT00224,2026-07-24,Hospital_B,Cardiology,Low,30
+PAT00225,2026-07-16,Hospital_A,Emergency,Medium,42
+PAT00226,2026-07-14,Hospital_A,Emergency,Low,57
+PAT00227,2026-07-02,Hospital_B,Cardiology,Medium,37
+PAT00228,2026-07-19,Hospital_C,Emergency,Low,70
+PAT00229,2026-07-11,Hospital_C,Emergency,Medium,64
+PAT00230,2026-07-12,Hospital_C,General Medicine,Medium,26
+PAT00231,2026-07-22,Hospital_B,Orthopedics,High,6
+PAT00232,2026-07-24,Hospital_A,General Medicine,High,8
+PAT00233,2026-07-17,Hospital_B,Pediatrics,Medium,36
+PAT00234,2026-07-01,Hospital_B,Orthopedics,Medium,10
+PAT00235,2026-07-09,Hospital_B,Cardiology,Low,36
+PAT00236,2026-07-21,Hospital_B,Orthopedics,Low,7
+PAT00237,2026-07-26,Hospital_C,Pediatrics,Low,28
+PAT00238,2026-07-21,Hospital_B,Cardiology,High,12
+PAT00239,2026-07-09,Hospital_C,Cardiology,Medium,49
+PAT00240,2026-07-26,Hospital_B,Cardiology,Low,15
+PAT00241,2026-07-28,Hospital_C,General Medicine,Low,25
+PAT00242,2026-07-10,Hospital_B,Orthopedics,Low,6
+PAT00243,2026-07-15,Hospital_B,Pediatrics,Medium,18
+PAT00244,2026-07-27,Hospital_B,General Medicine,Medium,37
+PAT00245,2026-07-16,Hospital_C,Emergency,Low,43
+PAT00246,2026-07-21,Hospital_C,General Medicine,Low,41
+PAT00247,2026-07-02,Hospital_B,General Medicine,Medium,28
+PAT00248,2026-07-31,Hospital_C,Orthopedics,Low,52
+PAT00249,2026-07-27,Hospital_B,Pediatrics,High,17
+PAT00250,2026-07-30,Hospital_C,General Medicine,Low,33
+PAT00251,2026-07-03,Hospital_B,Cardiology,High,19
+PAT00252,2026-07-18,Hospital_B,Cardiology,Low,8
+PAT00253,2026-07-19,Hospital_A,Cardiology,Low,24
+PAT00254,2026-07-08,Hospital_C,Cardiology,Low,19
+PAT00255,2026-07-14,Hospital_B,Orthopedics,Low,26
+PAT00256,2026-07-03,Hospital_C,Pediatrics,Medium,44
+PAT00257,2026-07-18,Hospital_A,General Medicine,Medium,12
+PAT00258,2026-07-02,Hospital_C,Cardiology,High,23
+PAT00259,2026-07-09,Hospital_A,Emergency,Low,58
+PAT00260,2026-07-02,Hospital_B,General Medicine,Medium,32
+PAT00261,2026-07-15,Hospital_A,Orthopedics,Medium,18
+PAT00262,2026-07-05,Hospital_A,Cardiology,High,10
+PAT00263,2026-07-12,Hospital_B,Pediatrics,High,2
+PAT00264,2026-07-29,Hospital_C,General Medicine,Medium,25
+PAT00265,2026-07-04,Hospital_C,Pediatrics,Low,22
+PAT00266,2026-07-26,Hospital_B,Pediatrics,Low,31
+PAT00267,2026-07-15,Hospital_C,General Medicine,Medium,31
+PAT00268,2026-07-07,Hospital_B,Orthopedics,Low,13
+PAT00269,2026-07-29,Hospital_C,Orthopedics,Low,31
+PAT00270,2026-07-31,Hospital_C,Pediatrics,High,32
+PAT00271,2026-07-10,Hospital_A,Pediatrics,Low,32
+PAT00272,2026-07-22,Hospital_A,Cardiology,High,22
+PAT00273,2026-07-11,Hospital_A,Cardiology,Medium,35
+PAT00274,2026-07-10,Hospital_B,Cardiology,Low,22
+PAT00275,2026-07-20,Hospital_C,Cardiology,Low,28
+PAT00276,2026-07-10,Hospital_A,Cardiology,Medium,16
+PAT00277,2026-07-11,Hospital_A,Pediatrics,Medium,18
+PAT00278,2026-07-29,Hospital_A,Pediatrics,High,21
+PAT00279,2026-07-25,Hospital_A,General Medicine,Low,26
+PAT00280,2026-07-09,Hospital_A,Emergency,High,25
+PAT00281,2026-07-03,Hospital_C,Orthopedics,Low,37
+PAT00282,2026-07-30,Hospital_C,Orthopedics,Low,24
+PAT00283,2026-07-23,Hospital_B,General Medicine,Medium,21
+PAT00284,2026-07-24,Hospital_B,General Medicine,High,7
+PAT00285,2026-07-06,Hospital_C,Cardiology,High,28
+PAT00286,2026-07-06,Hospital_B,Cardiology,Low,8
+PAT00287,2026-07-01,Hospital_B,Cardiology,Low,32
+PAT00288,2026-07-24,Hospital_C,Cardiology,Medium,49
+PAT00289,2026-07-27,Hospital_A,Cardiology,Low,7
+PAT00290,2026-07-05,Hospital_B,Emergency,Medium,69
+PAT00291,2026-07-23,Hospital_B,Emergency,Low,64
+PAT00292,2026-07-22,Hospital_B,Cardiology,Medium,9
+PAT00293,2026-07-04,Hospital_A,Pediatrics,Low,5
+PAT00294,2026-07-16,Hospital_A,General Medicine,Medium,6
+PAT00295,2026-07-08,Hospital_B,Emergency,Low,76
+PAT00296,2026-07-04,Hospital_A,Cardiology,High,1
+PAT00297,2026-07-30,Hospital_B,Pediatrics,Low,14
+PAT00298,2026-07-03,Hospital_A,Orthopedics,Medium,18
+PAT00299,2026-07-26,Hospital_C,Orthopedics,Medium,46
+PAT00300,2026-07-23,Hospital_C,General Medicine,Low,23
+PAT00301,2026-07-22,Hospital_A,Pediatrics,High,1
+PAT00302,2026-07-31,Hospital_C,Pediatrics,Low,29
+PAT00303,2026-07-11,Hospital_C,Pediatrics,Low,40
+PAT00304,2026-07-26,Hospital_B,Emergency,Low,41
+PAT00305,2026-07-23,Hospital_A,General Medicine,Medium,10
+PAT00306,2026-07-30,Hospital_A,Emergency,Low,49
+PAT00307,2026-07-29,Hospital_B,Orthopedics,Low,25
+PAT00308,2026-07-21,Hospital_C,Emergency,Medium,53
+PAT00309,2026-07-26,Hospital_B,Emergency,Low,59
+PAT00310,2026-07-31,Hospital_C,Emergency,Medium,69
+PAT00311,2026-07-08,Hospital_A,Pediatrics,Low,34
+PAT00312,2026-07-25,Hospital_B,General Medicine,Low,17
+PAT00313,2026-07-03,Hospital_B,Pediatrics,Medium,16
+PAT00314,2026-07-23,Hospital_B,Cardiology,High,27
+PAT00315,2026-07-03,Hospital_A,Emergency,High,52
+PAT00316,2026-07-18,Hospital_A,Emergency,Low,48
+PAT00317,2026-07-24,Hospital_C,General Medicine,Medium,30
+PAT00318,2026-07-09,Hospital_B,Pediatrics,Medium,31
+PAT00319,2026-07-09,Hospital_C,Cardiology,Low,14
+PAT00320,2026-07-15,Hospital_A,Cardiology,Low,27
+PAT00321,2026-07-04,Hospital_C,Cardiology,Low,43
+PAT00322,2026-07-20,Hospital_A,Pediatrics,Medium,35
+PAT00323,2026-07-31,Hospital_C,Pediatrics,Medium,57
+PAT00324,2026-07-12,Hospital_C,General Medicine,Low,44
+PAT00325,2026-07-26,Hospital_B,Cardiology,Medium,19
+PAT00326,2026-07-26,Hospital_C,General Medicine,Medium,43
+PAT00327,2026-07-06,Hospital_C,Pediatrics,Low,36
+PAT00328,2026-07-31,Hospital_C,Orthopedics,Low,35
+PAT00329,2026-07-13,Hospital_A,Pediatrics,Medium,29
+PAT00330,2026-07-29,Hospital_C,General Medicine,Low,43
+PAT00331,2026-07-26,Hospital_B,Pediatrics,Low,10
+PAT00332,2026-07-10,Hospital_A,Emergency,High,66
+PAT00333,2026-07-04,Hospital_B,Orthopedics,High,1
+PAT00334,2026-07-14,Hospital_C,General Medicine,High,12
+PAT00335,2026-07-21,Hospital_C,Emergency,Medium,59
+PAT00336,2026-07-22,Hospital_A,General Medicine,Low,14
+PAT00337,2026-07-22,Hospital_B,Emergency,Low,44
+PAT00338,2026-07-26,Hospital_A,Pediatrics,Low,34
+PAT00339,2026-07-05,Hospital_B,Pediatrics,Low,22
+PAT00340,2026-07-27,Hospital_A,Orthopedics,Medium,6
+PAT00341,2026-07-17,Hospital_B,Orthopedics,Low,17
+PAT00342,2026-07-16,Hospital_B,Orthopedics,Medium,33
+PAT00343,2026-07-15,Hospital_A,Orthopedics,Medium,39
+PAT00344,2026-07-09,Hospital_C,Orthopedics,High,39
+PAT00345,2026-07-27,Hospital_B,Orthopedics,Low,28
+PAT00346,2026-07-20,Hospital_C,Orthopedics,Low,44
+PAT00347,2026-07-21,Hospital_A,Cardiology,Low,10
+PAT00348,2026-07-28,Hospital_C,Pediatrics,Low,44
+PAT00349,2026-07-29,Hospital_B,Orthopedics,Low,8
+PAT00350,2026-07-06,Hospital_B,Pediatrics,Low,26
+PAT00351,2026-07-20,Hospital_A,Orthopedics,Low,23
+PAT00352,2026-07-01,Hospital_B,General Medicine,Low,10
+PAT00353,2026-07-20,Hospital_A,General Medicine,Low,40
+PAT00354,2026-07-30,Hospital_C,Pediatrics,High,38
+PAT00355,2026-07-28,Hospital_A,Orthopedics,Low,12
+PAT00356,2026-07-24,Hospital_A,Orthopedics,Low,9
+PAT00357,2026-07-13,Hospital_A,Cardiology,Low,7
+PAT00358,2026-07-06,Hospital_B,Emergency,Medium,37
+PAT00359,2026-07-06,Hospital_B,General Medicine,Low,39
+PAT00360,2026-07-12,Hospital_C,General Medicine,Low,19
+PAT00361,2026-07-10,Hospital_C,Orthopedics,Medium,42
+PAT00362,2026-07-27,Hospital_C,Cardiology,Low,36
+PAT00363,2026-07-14,Hospital_B,Orthopedics,High,1
+PAT00364,2026-07-21,Hospital_B,General Medicine,Low,27
+PAT00365,2026-07-16,Hospital_A,Pediatrics,Low,37
+PAT00366,2026-07-25,Hospital_B,Orthopedics,Low,11
+PAT00367,2026-07-05,Hospital_B,General Medicine,Medium,22
+PAT00368,2026-07-24,Hospital_A,Orthopedics,Low,12
+PAT00369,2026-07-31,Hospital_B,Cardiology,High,6
+PAT00370,2026-07-05,Hospital_B,Orthopedics,Low,23
+PAT00371,2026-07-13,Hospital_B,Orthopedics,Low,16
+PAT00372,2026-07-08,Hospital_B,General Medicine,Low,38
+PAT00373,2026-07-21,Hospital_A,Emergency,Low,48
+PAT00374,2026-07-07,Hospital_B,Orthopedics,High,5
+PAT00375,2026-07-15,Hospital_A,Orthopedics,Low,26
+PAT00376,2026-07-30,Hospital_B,Emergency,High,50
+PAT00377,2026-07-20,Hospital_A,Emergency,High,34
+PAT00378,2026-07-27,Hospital_A,General Medicine,High,1
+PAT00379,2026-07-29,Hospital_C,Pediatrics,Medium,55
+PAT00380,2026-07-18,Hospital_B,General Medicine,High,3
+PAT00381,2026-07-26,Hospital_A,General Medicine,Low,32
+PAT00382,2026-07-29,Hospital_B,Emergency,Low,45
+PAT00383,2026-07-03,Hospital_C,Cardiology,Medium,48
+PAT00384,2026-07-25,Hospital_B,Pediatrics,Low,38
+PAT00385,2026-07-22,Hospital_B,Pediatrics,Low,13
+PAT00386,2026-07-15,Hospital_C,General Medicine,Medium,53
+PAT00387,2026-07-16,Hospital_C,Orthopedics,Medium,25
+PAT00388,2026-07-15,Hospital_C,General Medicine,Low,48
+PAT00389,2026-07-26,Hospital_B,Orthopedics,Low,16
+PAT00390,2026-07-01,Hospital_B,Emergency,Medium,24
+PAT00391,2026-07-07,Hospital_B,Pediatrics,High,29
+PAT00392,2026-07-05,Hospital_C,General Medicine,Medium,44
+PAT00393,2026-07-14,Hospital_C,Cardiology,Medium,49
+PAT00394,2026-07-15,Hospital_C,Emergency,Medium,54
+PAT00395,2026-07-08,Hospital_B,Cardiology,High,31
+PAT00396,2026-07-21,Hospital_B,General Medicine,High,25
+PAT00397,2026-07-11,Hospital_A,Orthopedics,Medium,30
+PAT00398,2026-07-12,Hospital_C,Pediatrics,Low,22
+PAT00399,2026-07-06,Hospital_B,Cardiology,High,1
+PAT00400,2026-07-02,Hospital_A,Orthopedics,Medium,14
+PAT00401,2026-07-20,Hospital_C,Cardiology,High,20
+PAT00402,2026-07-18,Hospital_A,Pediatrics,Low,14
+PAT00403,2026-07-26,Hospital_C,Cardiology,High,13
+PAT00404,2026-07-20,Hospital_A,Orthopedics,Medium,19
+PAT00405,2026-07-14,Hospital_C,Cardiology,Medium,34
+PAT00406,2026-07-24,Hospital_C,Cardiology,High,13
+PAT00407,2026-07-24,Hospital_C,Orthopedics,Low,35
+PAT00408,2026-07-10,Hospital_B,Emergency,Medium,47
+PAT00409,2026-07-11,Hospital_C,Emergency,Medium,76
+PAT00410,2026-07-30,Hospital_A,Orthopedics,Low,29
+PAT00411,2026-07-31,Hospital_B,Pediatrics,Low,32
+PAT00412,2026-07-13,Hospital_B,Pediatrics,Medium,11
+PAT00413,2026-07-05,Hospital_B,Orthopedics,Low,9
+PAT00414,2026-07-27,Hospital_C,General Medicine,Low,16
+PAT00415,2026-07-16,Hospital_C,Pediatrics,Low,22
+PAT00416,2026-07-03,Hospital_B,Cardiology,Medium,24
+PAT00417,2026-07-09,Hospital_C,Orthopedics,Medium,19
+PAT00418,2026-07-08,Hospital_B,Cardiology,Low,14
+PAT00419,2026-07-25,Hospital_B,Pediatrics,Medium,9
+PAT00420,2026-07-14,Hospital_C,Orthopedics,Medium,43
+PAT00421,2026-07-28,Hospital_B,Pediatrics,Low,30
+PAT00422,2026-07-28,Hospital_A,Emergency,Low,60
+PAT00423,2026-07-29,Hospital_B,General Medicine,Low,35
+PAT00424,2026-07-01,Hospital_B,Pediatrics,Low,5
+PAT00425,2026-07-23,Hospital_B,Emergency,Low,24
+PAT00426,2026-07-05,Hospital_B,Cardiology,Medium,32
+PAT00427,2026-07-12,Hospital_B,General Medicine,Medium,24
+PAT00428,2026-07-13,Hospital_B,General Medicine,Low,27
+PAT00429,2026-07-31,Hospital_B,Orthopedics,Low,35
+PAT00430,2026-07-18,Hospital_B,Cardiology,Low,37
+PAT00431,2026-07-13,Hospital_C,Orthopedics,Medium,28
+PAT00432,2026-07-09,Hospital_C,Cardiology,Low,47
+PAT00433,2026-07-25,Hospital_B,Orthopedics,High,19
+PAT00434,2026-07-27,Hospital_C,General Medicine,High,17
+PAT00435,2026-07-20,Hospital_C,Emergency,High,50
+PAT00436,2026-07-11,Hospital_B,Emergency,Low,50
+PAT00437,2026-07-09,Hospital_C,Orthopedics,Medium,43
+PAT00438,2026-07-24,Hospital_C,General Medicine,Low,17
+PAT00439,2026-07-06,Hospital_B,Pediatrics,High,30
+PAT00440,2026-07-31,Hospital_C,Emergency,Low,59
+PAT00441,2026-07-22,Hospital_C,Orthopedics,Medium,35
+PAT00442,2026-07-29,Hospital_A,General Medicine,Low,32
+PAT00443,2026-07-22,Hospital_C,Cardiology,Low,27
+PAT00444,2026-07-15,Hospital_B,Pediatrics,Medium,26
+PAT00445,2026-07-12,Hospital_B,Emergency,Medium,54
+PAT00446,2026-07-13,Hospital_A,Orthopedics,Low,20
+PAT00447,2026-07-28,Hospital_C,Orthopedics,Low,52
+PAT00448,2026-07-13,Hospital_C,Orthopedics,Medium,40
+PAT00449,2026-07-26,Hospital_B,Orthopedics,Low,23
+PAT00450,2026-07-24,Hospital_B,Emergency,Medium,54
+PAT00451,2026-07-01,Hospital_B,Orthopedics,Low,31
+PAT00452,2026-07-27,Hospital_B,Cardiology,High,15
+PAT00453,2026-07-05,Hospital_A,Pediatrics,Medium,21
+PAT00454,2026-07-30,Hospital_A,Orthopedics,Medium,30
+PAT00455,2026-07-07,Hospital_A,Pediatrics,Low,23
+PAT00456,2026-07-01,Hospital_B,Emergency,Medium,68
+PAT00457,2026-07-21,Hospital_C,Orthopedics,High,29
+PAT00458,2026-07-25,Hospital_A,General Medicine,Low,29
+PAT00459,2026-07-05,Hospital_C,Orthopedics,Low,31
+PAT00460,2026-07-06,Hospital_C,Cardiology,Low,33
+PAT00461,2026-07-06,Hospital_A,Pediatrics,Low,16
+PAT00462,2026-07-08,Hospital_B,Emergency,Low,16
+PAT00463,2026-07-10,Hospital_C,Orthopedics,Low,27
+PAT00464,2026-07-05,Hospital_C,Emergency,Low,47
+PAT00465,2026-07-31,Hospital_B,Orthopedics,Medium,12
+PAT00466,2026-07-03,Hospital_B,Orthopedics,Low,18
+PAT00467,2026-07-02,Hospital_C,Orthopedics,Medium,20
+PAT00468,2026-07-20,Hospital_C,Pediatrics,Medium,25
+PAT00469,2026-07-22,Hospital_B,General Medicine,High,6
+PAT00470,2026-07-30,Hospital_C,Emergency,Low,69
+PAT00471,2026-07-11,Hospital_C,Pediatrics,Medium,47
+PAT00472,2026-07-22,Hospital_B,General Medicine,High,28
+PAT00473,2026-07-11,Hospital_B,General Medicine,Low,5
+PAT00474,2026-07-21,Hospital_A,Pediatrics,Medium,24
+PAT00475,2026-07-24,Hospital_C,Pediatrics,Low,27
+PAT00476,2026-07-26,Hospital_A,General Medicine,Low,31
+PAT00477,2026-07-06,Hospital_C,Orthopedics,Low,21
+PAT00478,2026-07-20,Hospital_A,Orthopedics,Medium,21
+PAT00479,2026-07-13,Hospital_B,Cardiology,Low,33
+PAT00480,2026-07-29,Hospital_C,General Medicine,Medium,26
+PAT00481,2026-07-05,Hospital_B,Emergency,Low,17
+PAT00482,2026-07-16,Hospital_B,Cardiology,High,8
+PAT00483,2026-07-18,Hospital_A,Emergency,Low,54
+PAT00484,2026-07-26,Hospital_B,Pediatrics,Medium,8
+PAT00485,2026-07-18,Hospital_C,General Medicine,Low,31
+PAT00486,2026-07-25,Hospital_B,Cardiology,Medium,23
+PAT00487,2026-07-30,Hospital_B,General Medicine,Low,26
+PAT00488,2026-07-27,Hospital_B,Orthopedics,Medium,8
+PAT00489,2026-07-06,Hospital_C,General Medicine,Low,24
+PAT00490,2026-07-20,Hospital_C,General Medicine,Low,50
+PAT00491,2026-07-25,Hospital_A,Cardiology,Medium,23
+PAT00492,2026-07-28,Hospital_C,Pediatrics,Medium,30
+PAT00493,2026-07-20,Hospital_C,Pediatrics,High,21
+PAT00494,2026-07-15,Hospital_A,Orthopedics,Low,16
+PAT00495,2026-07-27,Hospital_C,Emergency,Medium,61
+PAT00496,2026-07-26,Hospital_B,General Medicine,Low,28
+PAT00497,2026-07-28,Hospital_A,Pediatrics,Medium,37
+PAT00498,2026-07-13,Hospital_B,Emergency,Low,29
+PAT00499,2026-07-23,Hospital_C,Orthopedics,Low,34
+PAT00500,2026-07-01,Hospital_A,Emergency,Low,44
+PAT00501,2026-07-17,Hospital_B,Emergency,Medium,58
+PAT00502,2026-07-01,Hospital_B,Orthopedics,Medium,32
+PAT00503,2026-07-05,Hospital_C,Orthopedics,Medium,21
+PAT00504,2026-07-08,Hospital_B,Cardiology,Low,20
+PAT00505,2026-07-01,Hospital_B,Orthopedics,Medium,28
+PAT00506,2026-07-22,Hospital_B,Pediatrics,Low,16
+PAT00507,2026-07-22,Hospital_B,Pediatrics,Low,26
+PAT00508,2026-07-03,Hospital_A,Orthopedics,Low,35
+PAT00509,2026-07-04,Hospital_A,Pediatrics,Low,18
+PAT00510,2026-07-02,Hospital_C,Orthopedics,High,41
+PAT00511,2026-07-07,Hospital_A,General Medicine,Medium,31
+PAT00512,2026-07-31,Hospital_C,Cardiology,High,28
+PAT00513,2026-07-29,Hospital_B,Pediatrics,Medium,39
+PAT00514,2026-07-15,Hospital_B,Pediatrics,High,1
+PAT00515,2026-07-28,Hospital_B,Emergency,Medium,43
+PAT00516,2026-07-11,Hospital_C,Pediatrics,Medium,30
+PAT00517,2026-07-28,Hospital_B,Cardiology,Medium,35
+PAT00518,2026-07-10,Hospital_A,General Medicine,Medium,39
+PAT00519,2026-07-07,Hospital_B,General Medicine,Low,14
+PAT00520,2026-07-06,Hospital_B,Emergency,Low,50
+PAT00521,2026-07-07,Hospital_C,Pediatrics,High,23
+PAT00522,2026-07-09,Hospital_A,Emergency,Low,64
+PAT00523,2026-07-09,Hospital_A,General Medicine,Low,34
+PAT00524,2026-07-28,Hospital_A,Pediatrics,Medium,33
+PAT00525,2026-07-24,Hospital_A,Orthopedics,Low,21
+PAT00526,2026-07-30,Hospital_C,Orthopedics,Low,28
+PAT00527,2026-07-31,Hospital_B,Pediatrics,Low,21
+PAT00528,2026-07-07,Hospital_B,Cardiology,High,10
+PAT00529,2026-07-27,Hospital_A,Orthopedics,Low,8
+PAT00530,2026-07-04,Hospital_B,General Medicine,Medium,18
+PAT00531,2026-07-22,Hospital_C,Cardiology,Low,48
+PAT00532,2026-07-23,Hospital_A,Orthopedics,High,13
+PAT00533,2026-07-12,Hospital_B,Pediatrics,Medium,7
+PAT00534,2026-07-30,Hospital_C,Orthopedics,Medium,30
+PAT00535,2026-07-29,Hospital_C,Orthopedics,Medium,49
+PAT00536,2026-07-09,Hospital_C,Orthopedics,Low,32
+PAT00537,2026-07-15,Hospital_B,General Medicine,Low,17
+PAT00538,2026-07-30,Hospital_A,Emergency,Medium,37
+PAT00539,2026-07-22,Hospital_B,Emergency,Low,69
+PAT00540,2026-07-27,Hospital_C,Pediatrics,Low,49
+PAT00541,2026-07-11,Hospital_C,Emergency,Low,73
+PAT00542,2026-07-15,Hospital_B,Pediatrics,High,20
+PAT00543,2026-07-28,Hospital_A,General Medicine,Low,25
+PAT00544,2026-07-05,Hospital_C,Orthopedics,Low,54
+PAT00545,2026-07-03,Hospital_A,Pediatrics,Medium,12
+PAT00546,2026-07-30,Hospital_B,Pediatrics,High,24
+PAT00547,2026-07-16,Hospital_A,Emergency,Low,42
+PAT00548,2026-07-08,Hospital_B,Pediatrics,Low,22
+PAT00549,2026-07-08,Hospital_B,Cardiology,High,5
+PAT00550,2026-07-21,Hospital_B,Cardiology,Low,6
+PAT00551,2026-07-09,Hospital_B,Cardiology,Medium,9
+PAT00552,2026-07-05,Hospital_A,General Medicine,Medium,28
+PAT00553,2026-07-26,Hospital_B,Pediatrics,Medium,21
+PAT00554,2026-07-24,Hospital_A,Orthopedics,Low,21
+PAT00555,2026-07-11,Hospital_A,Orthopedics,Medium,15
+PAT00556,2026-07-23,Hospital_C,General Medicine,Low,30
+PAT00557,2026-07-25,Hospital_C,Pediatrics,Medium,28
+PAT00558,2026-07-05,Hospital_C,General Medicine,Low,33
+PAT00559,2026-07-31,Hospital_B,General Medicine,Low,8
+PAT00560,2026-07-27,Hospital_C,Orthopedics,Medium,44
+PAT00561,2026-07-12,Hospital_B,General Medicine,Low,17
+PAT00562,2026-07-27,Hospital_A,General Medicine,Medium,20
+PAT00563,2026-07-31,Hospital_B,Emergency,Low,65
+PAT00564,2026-07-31,Hospital_C,Emergency,Medium,52
+PAT00565,2026-07-15,Hospital_B,Pediatrics,Low,37
+PAT00566,2026-07-27,Hospital_C,Orthopedics,Low,44
+PAT00567,2026-07-01,Hospital_C,Pediatrics,Low,14
+PAT00568,2026-07-13,Hospital_B,General Medicine,Low,14
+PAT00569,2026-07-10,Hospital_B,General Medicine,Low,10
+PAT00570,2026-07-12,Hospital_A,Emergency,Low,70
+PAT00571,2026-07-02,Hospital_C,Orthopedics,Medium,43
+PAT00572,2026-07-05,Hospital_B,Orthopedics,Low,9
+PAT00573,2026-07-15,Hospital_B,General Medicine,Low,6
+PAT00574,2026-07-11,Hospital_C,Emergency,Low,57
+PAT00575,2026-07-22,Hospital_A,Pediatrics,Medium,38
+PAT00576,2026-07-25,Hospital_B,Emergency,Low,46
+PAT00577,2026-07-04,Hospital_A,Orthopedics,Low,5
+PAT00578,2026-07-05,Hospital_A,Emergency,Low,63
+PAT00579,2026-07-04,Hospital_C,Pediatrics,Medium,41
+PAT00580,2026-07-05,Hospital_A,Cardiology,Low,23
+PAT00581,2026-07-04,Hospital_A,Orthopedics,Medium,17
+PAT00582,2026-07-26,Hospital_C,General Medicine,Low,43
+PAT00583,2026-07-11,Hospital_A,Emergency,Medium,72
+PAT00584,2026-07-09,Hospital_C,Orthopedics,Medium,19
+PAT00585,2026-07-17,Hospital_A,General Medicine,Medium,34
+PAT00586,2026-07-03,Hospital_A,Emergency,Medium,56
+PAT00587,2026-07-29,Hospital_B,Cardiology,Low,35
+PAT00588,2026-07-20,Hospital_B,Pediatrics,Low,21
+PAT00589,2026-07-26,Hospital_C,General Medicine,Medium,47
+PAT00590,2026-07-20,Hospital_A,General Medicine,Low,20
+PAT00591,2026-07-01,Hospital_A,Emergency,Medium,58
+PAT00592,2026-07-26,Hospital_B,Pediatrics,Medium,18
+PAT00593,2026-07-12,Hospital_B,General Medicine,High,20
+PAT00594,2026-07-11,Hospital_C,Emergency,Medium,69
+PAT00595,2026-07-07,Hospital_A,General Medicine,High,17
+PAT00596,2026-07-18,Hospital_C,General Medicine,Medium,33
+PAT00597,2026-07-26,Hospital_C,Pediatrics,Medium,45
+PAT00598,2026-07-03,Hospital_C,General Medicine,High,26
+PAT00599,2026-07-22,Hospital_B,Cardiology,Medium,18
+PAT00600,2026-07-22,Hospital_C,General Medicine,Medium,31
+PAT00601,2026-07-31,Hospital_C,Cardiology,Low,36
+PAT00602,2026-07-30,Hospital_B,Pediatrics,Low,32
+PAT00603,2026-07-06,Hospital_C,Emergency,Low,37
+PAT00604,2026-07-01,Hospital_C,Orthopedics,High,12
+PAT00605,2026-07-14,Hospital_B,Orthopedics,Low,11
+PAT00606,2026-07-04,Hospital_B,Emergency,High,32
+PAT00607,2026-07-07,Hospital_C,Pediatrics,High,28
+PAT00608,2026-07-11,Hospital_C,Orthopedics,Medium,27
+PAT00609,2026-07-28,Hospital_A,Pediatrics,Medium,37
+PAT00610,2026-07-21,Hospital_C,Cardiology,Medium,51
+PAT00611,2026-07-20,Hospital_B,General Medicine,High,7
+PAT00612,2026-07-07,Hospital_C,Pediatrics,Low,47
+PAT00613,2026-07-06,Hospital_C,Emergency,Medium,73
+PAT00614,2026-07-16,Hospital_C,Emergency,Low,69
+PAT00615,2026-07-01,Hospital_C,Cardiology,Low,20
+PAT00616,2026-07-20,Hospital_B,Orthopedics,Medium,8
+PAT00617,2026-07-16,Hospital_A,Pediatrics,Medium,13
+PAT00618,2026-07-31,Hospital_C,General Medicine,Medium,27
+PAT00619,2026-07-09,Hospital_A,Orthopedics,Low,23
+PAT00620,2026-07-14,Hospital_A,Cardiology,Low,36
+PAT00621,2026-07-05,Hospital_C,General Medicine,High,25
+PAT00622,2026-07-06,Hospital_B,Pediatrics,Low,9
+PAT00623,2026-07-30,Hospital_B,Cardiology,Low,35
+PAT00624,2026-07-11,Hospital_A,Pediatrics,Low,27
+PAT00625,2026-07-24,Hospital_C,General Medicine,Low,21
+PAT00626,2026-07-16,Hospital_C,Pediatrics,Low,30
+PAT00627,2026-07-03,Hospital_B,Cardiology,Medium,22
+PAT00628,2026-07-07,Hospital_A,Orthopedics,Low,17
+PAT00629,2026-07-07,Hospital_A,General Medicine,Low,24
+PAT00630,2026-07-04,Hospital_A,Emergency,High,16
+PAT00631,2026-07-12,Hospital_C,Orthopedics,Low,45
+PAT00632,2026-07-02,Hospital_C,General Medicine,Low,50
+PAT00633,2026-07-09,Hospital_C,Emergency,Medium,65
+PAT00634,2026-07-17,Hospital_B,Pediatrics,Low,16
+PAT00635,2026-07-31,Hospital_C,Pediatrics,Medium,16
+PAT00636,2026-07-29,Hospital_C,Emergency,Low,53
+PAT00637,2026-07-08,Hospital_C,General Medicine,Medium,19
+PAT00638,2026-07-18,Hospital_B,Emergency,High,28
+PAT00639,2026-07-18,Hospital_C,Orthopedics,Medium,56
+PAT00640,2026-07-27,Hospital_A,Orthopedics,Medium,9
+PAT00641,2026-07-18,Hospital_A,Cardiology,Medium,7
+PAT00642,2026-07-08,Hospital_B,Cardiology,Low,8
+PAT00643,2026-07-17,Hospital_A,General Medicine,Medium,39
+PAT00644,2026-07-03,Hospital_A,Orthopedics,Medium,21
+PAT00645,2026-07-25,Hospital_A,General Medicine,Low,37
+PAT00646,2026-07-21,Hospital_C,Cardiology,Low,20
+PAT00647,2026-07-22,Hospital_C,Emergency,Low,31
+PAT00648,2026-07-23,Hospital_B,Pediatrics,Medium,18
+PAT00649,2026-07-03,Hospital_A,Cardiology,Medium,30
+PAT00650,2026-07-28,Hospital_C,Emergency,Medium,63
+PAT00651,2026-07-06,Hospital_B,Pediatrics,Low,24
+PAT00652,2026-07-10,Hospital_C,Cardiology,Medium,29
+PAT00653,2026-07-19,Hospital_B,Emergency,Low,39
+PAT00654,2026-07-10,Hospital_B,General Medicine,Low,6
+PAT00655,2026-07-30,Hospital_A,Orthopedics,Low,5
+PAT00656,2026-07-08,Hospital_C,Emergency,Medium,75
+PAT00657,2026-07-30,Hospital_C,General Medicine,Low,40
+PAT00658,2026-07-16,Hospital_C,Pediatrics,High,20
+PAT00659,2026-07-06,Hospital_B,Cardiology,High,13
+PAT00660,2026-07-05,Hospital_A,Emergency,High,37
+PAT00661,2026-07-03,Hospital_C,Orthopedics,Low,17
+PAT00662,2026-07-12,Hospital_B,Emergency,Medium,59
+PAT00663,2026-07-18,Hospital_B,Orthopedics,Medium,40
+PAT00664,2026-07-21,Hospital_C,Emergency,Medium,71
+PAT00665,2026-07-31,Hospital_B,Pediatrics,Medium,15
+PAT00666,2026-07-21,Hospital_A,General Medicine,High,7
+PAT00667,2026-07-31,Hospital_A,General Medicine,Medium,25
+PAT00668,2026-07-24,Hospital_B,General Medicine,Medium,5
+PAT00669,2026-07-14,Hospital_B,Pediatrics,Low,20
+PAT00670,2026-07-18,Hospital_B,Pediatrics,Low,8
+PAT00671,2026-07-31,Hospital_B,Orthopedics,Medium,24
+PAT00672,2026-07-30,Hospital_C,General Medicine,Medium,11
+PAT00673,2026-07-01,Hospital_B,Pediatrics,Low,11
+PAT00674,2026-07-13,Hospital_B,Emergency,Low,51
+PAT00675,2026-07-17,Hospital_B,Pediatrics,Medium,29
+PAT00676,2026-07-09,Hospital_C,Cardiology,Medium,28
+PAT00677,2026-07-19,Hospital_A,Orthopedics,Medium,7
+PAT00678,2026-07-11,Hospital_C,Orthopedics,Low,53
+PAT00679,2026-07-19,Hospital_A,Pediatrics,Medium,24
+PAT00680,2026-07-02,Hospital_B,Orthopedics,Low,38
+PAT00681,2026-07-30,Hospital_C,Cardiology,High,7
+PAT00682,2026-07-31,Hospital_C,Pediatrics,Low,50
+PAT00683,2026-07-10,Hospital_C,Cardiology,Medium,50
+PAT00684,2026-07-26,Hospital_C,Emergency,Low,67
+PAT00685,2026-07-09,Hospital_A,Emergency,Low,21
+PAT00686,2026-07-08,Hospital_C,General Medicine,Low,23
+PAT00687,2026-07-16,Hospital_A,Emergency,High,27
+PAT00688,2026-07-12,Hospital_A,Orthopedics,Medium,5
+PAT00689,2026-07-01,Hospital_A,Pediatrics,Low,30
+PAT00690,2026-07-20,Hospital_B,Cardiology,Medium,29
+PAT00691,2026-07-14,Hospital_B,General Medicine,Low,20
+PAT00692,2026-07-05,Hospital_A,Emergency,High,47
+PAT00693,2026-07-01,Hospital_B,Pediatrics,High,1
+PAT00694,2026-07-21,Hospital_C,Emergency,Medium,41
+PAT00695,2026-07-21,Hospital_C,General Medicine,Medium,31
+PAT00696,2026-07-20,Hospital_C,Pediatrics,Medium,50
+PAT00697,2026-07-04,Hospital_B,Cardiology,Medium,7
+PAT00698,2026-07-31,Hospital_C,Orthopedics,Medium,26
+PAT00699,2026-07-16,Hospital_B,Emergency,Medium,40
+PAT00700,2026-07-16,Hospital_C,General Medicine,Low,37
+PAT00701,2026-07-21,Hospital_B,Pediatrics,Medium,30
+PAT00702,2026-07-13,Hospital_B,Emergency,Medium,54
+PAT00703,2026-07-05,Hospital_B,General Medicine,Medium,7
+PAT00704,2026-07-14,Hospital_A,General Medicine,Low,16
+PAT00705,2026-07-30,Hospital_C,General Medicine,Low,32
+PAT00706,2026-07-10,Hospital_C,General Medicine,Medium,48
+PAT00707,2026-07-11,Hospital_A,Pediatrics,Low,25
+PAT00708,2026-07-05,Hospital_A,Orthopedics,Medium,14
+PAT00709,2026-07-04,Hospital_B,Cardiology,Low,39
+PAT00710,2026-07-10,Hospital_C,Pediatrics,Medium,54
+PAT00711,2026-07-28,Hospital_B,Orthopedics,High,1
+PAT00712,2026-07-02,Hospital_A,Orthopedics,Low,13
+PAT00713,2026-07-22,Hospital_C,Emergency,Low,59
+PAT00714,2026-07-10,Hospital_B,Cardiology,High,3
+PAT00715,2026-07-12,Hospital_C,Orthopedics,Medium,44
+PAT00716,2026-07-31,Hospital_B,Orthopedics,Low,18
+PAT00717,2026-07-16,Hospital_A,Cardiology,Low,20
+PAT00718,2026-07-22,Hospital_B,Pediatrics,Low,39
+PAT00719,2026-07-24,Hospital_C,Emergency,Medium,39
+PAT00720,2026-07-31,Hospital_C,General Medicine,Medium,40
+PAT00721,2026-07-01,Hospital_B,Emergency,Low,50
+PAT00722,2026-07-02,Hospital_A,Orthopedics,Low,32
+PAT00723,2026-07-30,Hospital_C,General Medicine,Medium,39
+PAT00724,2026-07-02,Hospital_A,Orthopedics,Low,28
+PAT00725,2026-07-31,Hospital_C,Orthopedics,High,26
+PAT00726,2026-07-24,Hospital_C,Cardiology,Medium,41
+PAT00727,2026-07-09,Hospital_A,Cardiology,High,23
+PAT00728,2026-07-12,Hospital_C,General Medicine,Medium,59
+PAT00729,2026-07-20,Hospital_C,Cardiology,Low,35
+PAT00730,2026-07-23,Hospital_A,Orthopedics,Medium,10
+PAT00731,2026-07-31,Hospital_A,General Medicine,High,17
+PAT00732,2026-07-27,Hospital_B,Emergency,Medium,49
+PAT00733,2026-07-15,Hospital_B,Cardiology,Medium,37
+PAT00734,2026-07-31,Hospital_A,Pediatrics,Medium,27
+PAT00735,2026-07-20,Hospital_A,Orthopedics,High,18
+PAT00736,2026-07-22,Hospital_A,Emergency,Low,46
+PAT00737,2026-07-31,Hospital_B,Cardiology,Low,22
+PAT00738,2026-07-21,Hospital_B,Orthopedics,Low,28
+PAT00739,2026-07-25,Hospital_A,Emergency,Low,27
+PAT00740,2026-07-29,Hospital_A,General Medicine,High,1
+PAT00741,2026-07-23,Hospital_B,Orthopedics,Medium,30
+PAT00742,2026-07-27,Hospital_B,Cardiology,Low,35
+PAT00743,2026-07-18,Hospital_C,Emergency,Low,80
+PAT00744,2026-07-18,Hospital_B,Orthopedics,High,20
+PAT00745,2026-07-06,Hospital_B,Emergency,Low,55
+PAT00746,2026-07-02,Hospital_C,General Medicine,Low,50
+PAT00747,2026-07-14,Hospital_C,Emergency,Low,43
+PAT00748,2026-07-22,Hospital_B,Pediatrics,High,15
+PAT00749,2026-07-19,Hospital_A,Emergency,Medium,59
+PAT00750,2026-07-19,Hospital_A,General Medicine,Low,21
+PAT00751,2026-07-01,Hospital_B,Cardiology,High,1
+PAT00752,2026-07-29,Hospital_C,Emergency,Medium,91
+PAT00753,2026-07-12,Hospital_C,Cardiology,Low,49
+PAT00754,2026-07-28,Hospital_C,Pediatrics,Medium,47
+PAT00755,2026-07-13,Hospital_A,General Medicine,Low,31
+PAT00756,2026-07-05,Hospital_A,General Medicine,Medium,24
+PAT00757,2026-07-25,Hospital_B,Pediatrics,Low,7
+PAT00758,2026-07-28,Hospital_A,Cardiology,Low,20
+PAT00759,2026-07-03,Hospital_A,Orthopedics,Low,14
+PAT00760,2026-07-21,Hospital_B,Pediatrics,Medium,7
+PAT00761,2026-07-03,Hospital_C,Cardiology,High,34
+PAT00762,2026-07-11,Hospital_B,Orthopedics,Low,26
+PAT00763,2026-07-04,Hospital_B,Emergency,Low,44
+PAT00764,2026-07-29,Hospital_C,Cardiology,Medium,11
+PAT00765,2026-07-08,Hospital_A,Emergency,High,49
+PAT00766,2026-07-02,Hospital_B,Cardiology,Low,6
+PAT00767,2026-07-04,Hospital_A,Pediatrics,Medium,5
+PAT00768,2026-07-01,Hospital_C,General Medicine,Low,21
+PAT00769,2026-07-10,Hospital_C,Cardiology,High,13
+PAT00770,2026-07-01,Hospital_B,General Medicine,High,21
+PAT00771,2026-07-11,Hospital_C,Orthopedics,High,30
+PAT00772,2026-07-10,Hospital_B,Cardiology,Low,8
+PAT00773,2026-07-12,Hospital_A,Emergency,Low,28
+PAT00774,2026-07-17,Hospital_C,Orthopedics,Low,14
+PAT00775,2026-07-30,Hospital_B,Cardiology,Low,21
+PAT00776,2026-07-20,Hospital_C,Orthopedics,High,27
+PAT00777,2026-07-26,Hospital_A,Emergency,Low,22
+PAT00778,2026-07-06,Hospital_A,Cardiology,High,28
+PAT00779,2026-07-22,Hospital_C,Cardiology,Low,52
+PAT00780,2026-07-03,Hospital_C,Cardiology,Low,17
+PAT00781,2026-07-22,Hospital_C,Pediatrics,Medium,32
+PAT00782,2026-07-24,Hospital_C,Pediatrics,Medium,54
+PAT00783,2026-07-18,Hospital_A,Pediatrics,Medium,32
+PAT00784,2026-07-09,Hospital_C,Orthopedics,Low,57
+PAT00785,2026-07-22,Hospital_A,General Medicine,Low,10
+PAT00786,2026-07-29,Hospital_B,Orthopedics,High,32
+PAT00787,2026-07-24,Hospital_C,General Medicine,Low,49
+PAT00788,2026-07-11,Hospital_C,Orthopedics,Low,33
+PAT00789,2026-07-14,Hospital_B,Emergency,High,55
+PAT00790,2026-07-24,Hospital_C,Orthopedics,Low,37
+PAT00791,2026-07-08,Hospital_A,General Medicine,Medium,39
+PAT00792,2026-07-24,Hospital_C,Orthopedics,Low,20
+PAT00793,2026-07-05,Hospital_B,Emergency,Low,48
+PAT00794,2026-07-08,Hospital_B,Orthopedics,Low,15
+PAT00795,2026-07-13,Hospital_C,Cardiology,Medium,44
+PAT00796,2026-07-13,Hospital_A,Emergency,Low,49
+PAT00797,2026-07-15,Hospital_B,Emergency,Medium,47
+PAT00798,2026-07-10,Hospital_A,General Medicine,Low,9
+PAT00799,2026-07-01,Hospital_C,Cardiology,Low,47
+PAT00800,2026-07-13,Hospital_C,Pediatrics,Low,49
