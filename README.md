@@ -59,9 +59,6 @@ The dashboard provides a comprehensive view of patient flow efficiency through:
 - In critical cases, Emergency in :contentReference[oaicite:1]{index=1} reached nearly **60 minutes**
 - High-priority patients were treated faster (~20 minutes average)
 - Medium and low-priority patients showed similar wait times (~30 minutes), indicating limited segmentation efficiency
-- :contentReference[oaicite:2]{index=2} showed declining efficiency over weeks (34.5 → 39.7 minutes)
-- :contentReference[oaicite:3]{index=3} showed consistent improvement in efficiency
-- :contentReference[oaicite:4]{index=4} showed fluctuating performance
 
 ---
 
@@ -79,7 +76,6 @@ Emergency care delays can significantly impact patient outcomes, making this a h
 
 - Strengthen staffing and response time in Emergency departments
 - Improve triage-based patient routing to reduce overlapping queues
-- Optimize workflow processes in :contentReference[oaicite:5]{index=5}, especially Emergency operations
 - Standardize triage prioritization to improve segregation of patient queues
 
 ---
